@@ -3,17 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		111E54DC2021022700A7FE9A /* OPDS2Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111E54DB2021022700A7FE9A /* OPDS2Parser.swift */; };
+		955EFA2A2662E37800BB7C30 /* Fuzi in Frameworks */ = {isa = PBXBuildFile; productRef = 955EFA292662E37800BB7C30 /* Fuzi */; };
 		AE49834720D902710013B912 /* ParseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49834620D902710013B912 /* ParseData.swift */; };
 		AE6B98E020CAB93200117197 /* OPDSParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B98DF20CAB93200117197 /* OPDSParser.swift */; };
 		AED681F020A316160090DBCD /* URLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED681EF20A316160090DBCD /* URLHelper.swift */; };
 		CA415ECB221D5307003A0F7F /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA415EC9221D5182003A0F7F /* Deprecated.swift */; };
 		CA7B77CC263AB97E00260838 /* R2Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7B77CB263AB97E00260838 /* R2Shared.framework */; };
-		CA7B77D0263AB98800260838 /* Fuzi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7B77CF263AB98800260838 /* Fuzi.framework */; };
 		F34B7E5E1FA35B7900534FD3 /* readium_opds.h in Headers */ = {isa = PBXBuildFile; fileRef = F34B7E501FA35B7900534FD3 /* readium_opds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F34B7E691FA35BB100534FD3 /* OPDS1Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34B7E681FA35BB100534FD3 /* OPDS1Parser.swift */; };
 /* End PBXBuildFile section */
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA7B77D0263AB98800260838 /* Fuzi.framework in Frameworks */,
+				955EFA2A2662E37800BB7C30 /* Fuzi in Frameworks */,
 				CA7B77CC263AB97E00260838 /* R2Shared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +142,9 @@
 			dependencies = (
 			);
 			name = "readium-opds";
+			packageProductDependencies = (
+				955EFA292662E37800BB7C30 /* Fuzi */,
+			);
 			productName = "readium-opds";
 			productReference = F34B7E4D1FA35B7900534FD3 /* ReadiumOPDS.framework */;
 			productType = "com.apple.product-type.framework";
@@ -172,6 +175,9 @@
 				Base,
 			);
 			mainGroup = F34B7E431FA35B7900534FD3;
+			packageReferences = (
+				955EFA282662E37800BB7C30 /* XCRemoteSwiftPackageReference "Fuzi" */,
+			);
 			productRefGroup = F34B7E4E1FA35B7900534FD3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -321,7 +327,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -348,7 +355,10 @@
 				INFOPLIST_FILE = "readium-opds/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.readium.readium-opds";
 				PRODUCT_NAME = ReadiumOPDS;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -379,7 +389,10 @@
 				INFOPLIST_FILE = "readium-opds/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.readium.readium-opds";
 				PRODUCT_NAME = ReadiumOPDS;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -412,6 +425,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		955EFA282662E37800BB7C30 /* XCRemoteSwiftPackageReference "Fuzi" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cezheng/Fuzi";
+			requirement = {
+				kind = exactVersion;
+				version = 3.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		955EFA292662E37800BB7C30 /* Fuzi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 955EFA282662E37800BB7C30 /* XCRemoteSwiftPackageReference "Fuzi" */;
+			productName = Fuzi;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F34B7E441FA35B7900534FD3 /* Project object */;
 }

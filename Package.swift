@@ -14,7 +14,8 @@ let package = Package(
     products: [
         .library(
             name: "ReadiumOPDS",
-            targets: ["ReadiumOPDS"]),
+            targets: ["ReadiumOPDS"]
+        ),
     ],
     dependencies: [
         .package(url: "https://github.com/cezheng/Fuzi.git", from: "3.1.3"),
@@ -31,13 +32,13 @@ let package = Package(
             exclude: ["Info.plist"]
         ),
         .testTarget(
-            name: "R2OPDSTests",
+            name: "ReadiumOPDSTests",
             dependencies: ["ReadiumOPDS"],
             path: "./readium-opdsTests/",
             exclude: ["Info.plist"],
             resources: [
-                .copy("Samples")
+                .copy("Samples"),
             ]
-        )
+        ),
     ]
 )

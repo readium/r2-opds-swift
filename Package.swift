@@ -8,7 +8,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ReadiumOPDS",
+    name: "r2-opds-swift",
     defaultLocalization: "en",
     platforms: [.iOS(.v10)],
     products: [
@@ -17,18 +17,21 @@ let package = Package(
             targets: ["ReadiumOPDS"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/cezheng/Fuzi.git", .exact("3.1.3")),
-        .package(name: "R2Shared", url: "https://github.com/readium/r2-shared-swift.git", .branch("develop")),
+        .package(url: "https://github.com/cezheng/Fuzi.git", from: "3.1.3"),
+        .package(url: "https://github.com/readium/r2-shared-swift.git", .branch("develop")),
     ],
     targets: [
         .target(
             name: "ReadiumOPDS",
-            dependencies: ["Fuzi", "R2Shared"],
+            dependencies: [
+                "Fuzi",
+                .product(name: "R2Shared", package: "r2-shared-swift"),
+            ],
             path: "./readium-opds/",
             exclude: ["Info.plist"]
         ),
         .testTarget(
-            name: "r2-opds-swiftTests",
+            name: "R2OPDSTests",
             dependencies: ["ReadiumOPDS"],
             path: "./readium-opdsTests/",
             exclude: ["Info.plist"],

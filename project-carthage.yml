@@ -1,0 +1,17 @@
+name: readium-opds-swift
+options:
+  bundleIdPrefix: org.readium
+targets:
+  readium-opds-swift:
+    type: framework
+    platform: iOS
+    deploymentTarget: "10.0"
+    sources: 
+      - path: readium-opds
+    dependencies:
+      - framework: Carthage/Build/Fuzi.xcframework
+      - framework: Carthage/Build/Minizip.xcframework
+      - framework: Carthage/Build/R2Shared.xcframework
+    settings:
+      PRODUCT_NAME: ReadiumLCP
+      LIBRARY_SEARCH_PATHS: $(PROJECT_DIR)/Carthage

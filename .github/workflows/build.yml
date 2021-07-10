@@ -23,7 +23,7 @@ jobs:
         run: |
           # Check that the Carthage project is up to date.
           make carthage
-          git diff --exit-code --name-only r2-lcp-swift.xcodeproj
+          git diff --exit-code --name-only readium-opds.xcodeproj
       - name: Prepare build
         run: |
           # readium-opds.xcodeproj is only relevant for Carthage. We remove it otherwise xcodebuild will use it.

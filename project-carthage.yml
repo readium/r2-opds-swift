@@ -1,8 +1,8 @@
-name: readium-opds-swift
+name: readium-opds
 options:
   bundleIdPrefix: org.readium
 targets:
-  readium-opds-swift:
+  r2-opds-swift:
     type: framework
     platform: iOS
     deploymentTarget: "10.0"

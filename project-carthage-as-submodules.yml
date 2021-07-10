@@ -4,7 +4,7 @@ name: readium-opds
 options:
   bundleIdPrefix: org.readium
 targets:
-  r2-opds-swift:
+  ReadiumOPDS:
     type: framework
     platform: iOS
     deploymentTarget: "10.0"
@@ -15,4 +15,9 @@ targets:
       - framework: Minizip.framework
       - framework: R2Shared.framework
     settings:
-      PRODUCT_NAME: ReadiumOPDS
+      PRODUCT_BUNDLE_IDENTIFIER: com.readium.readium-opds
+schemes:
+  readium-opds:
+    build:
+      targets:
+        ReadiumOPDS: all

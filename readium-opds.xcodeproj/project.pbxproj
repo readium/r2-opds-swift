@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ADCDD2E3F961C147A8EBEE7 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F160A2E6953D34AA1FB72A /* Deprecated.swift */; };
-		0B86C50C8DFD465802C7A729 /* OPDSParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD022C1D545BD38A73997C8 /* OPDSParser.swift */; };
-		29CDE6963DACD9C3292C25E4 /* R2Shared.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993873B436318364FB05C8EB /* R2Shared.xcframework */; };
-		330261E4B981CFF3E50DAB66 /* OPDS2Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E7487A92CBF60B4F8F6AE2 /* OPDS2Parser.swift */; };
-		61FF9EBDB930D69A4459E720 /* readium_opds.h in Headers */ = {isa = PBXBuildFile; fileRef = D847348579169632FCF2FD76 /* readium_opds.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F02EAC1F78AAF9D82680C63 /* Fuzi.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C56B8E93154934A5533D4A /* Fuzi.xcframework */; };
-		9090D23ED62AA5C91850EEE4 /* Minizip.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577E42219C61274F25A9E6BB /* Minizip.xcframework */; };
-		B00A1B84D4895F81AC5EEF0A /* URLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC08274039C7CFA0F68325F /* URLHelper.swift */; };
-		C87E1A98866A99BE7173321F /* OPDS1Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D439E0B389FAFB9230B53C /* OPDS1Parser.swift */; };
-		E8337C754BA990696F27C08B /* ParseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A316D9A3E3BD6DC78413055F /* ParseData.swift */; };
+		0565A1D9FF506DE8FAAF0AEC /* Minizip.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577E42219C61274F25A9E6BB /* Minizip.xcframework */; };
+		2AB527F7B1086F129D84AEAD /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F160A2E6953D34AA1FB72A /* Deprecated.swift */; };
+		4A924F7C90F0FC30F2ED28AC /* OPDS1Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D439E0B389FAFB9230B53C /* OPDS1Parser.swift */; };
+		5C8BE124059E0C2519D1F2AE /* readium_opds.h in Headers */ = {isa = PBXBuildFile; fileRef = D847348579169632FCF2FD76 /* readium_opds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		845416BD465E70C0AEB2D5A9 /* R2Shared.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993873B436318364FB05C8EB /* R2Shared.xcframework */; };
+		8D8D9482AE464EFE9B00868E /* URLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC08274039C7CFA0F68325F /* URLHelper.swift */; };
+		98414C07E8591593030905BA /* ParseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A316D9A3E3BD6DC78413055F /* ParseData.swift */; };
+		B2253EC0E76D48089ADD3E50 /* Fuzi.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C56B8E93154934A5533D4A /* Fuzi.xcframework */; };
+		B865DBAD30615612BB87EE76 /* OPDSParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD022C1D545BD38A73997C8 /* OPDSParser.swift */; };
+		F05D50C390821737CCDA33E9 /* OPDS2Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E7487A92CBF60B4F8F6AE2 /* OPDS2Parser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03E7487A92CBF60B4F8F6AE2 /* OPDS2Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPDS2Parser.swift; sourceTree = "<group>"; };
 		04C56B8E93154934A5533D4A /* Fuzi.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Fuzi.xcframework; path = Carthage/Build/Fuzi.xcframework; sourceTree = "<group>"; };
 		0BD022C1D545BD38A73997C8 /* OPDSParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPDSParser.swift; sourceTree = "<group>"; };
+		35EF4BAACB12722F66F97690 /* ReadiumOPDS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReadiumOPDS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		577E42219C61274F25A9E6BB /* Minizip.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Minizip.xcframework; path = Carthage/Build/Minizip.xcframework; sourceTree = "<group>"; };
-		8A730CA260F1AD0675B717FD /* r2-opds-swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "r2-opds-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D439E0B389FAFB9230B53C /* OPDS1Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPDS1Parser.swift; sourceTree = "<group>"; };
 		993873B436318364FB05C8EB /* R2Shared.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = R2Shared.xcframework; path = Carthage/Build/R2Shared.xcframework; sourceTree = "<group>"; };
 		A2F160A2E6953D34AA1FB72A /* Deprecated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deprecated.swift; sourceTree = "<group>"; };
@@ -35,13 +35,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D35F5D4AD2496E802724D642 /* Frameworks */ = {
+		3177CD2CC0FBC7F7DBCBA07D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F02EAC1F78AAF9D82680C63 /* Fuzi.xcframework in Frameworks */,
-				9090D23ED62AA5C91850EEE4 /* Minizip.xcframework in Frameworks */,
-				29CDE6963DACD9C3292C25E4 /* R2Shared.xcframework in Frameworks */,
+				B2253EC0E76D48089ADD3E50 /* Fuzi.xcframework in Frameworks */,
+				0565A1D9FF506DE8FAAF0AEC /* Minizip.xcframework in Frameworks */,
+				845416BD465E70C0AEB2D5A9 /* R2Shared.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 		96C0FE2935B17FE6A79F267E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A730CA260F1AD0675B717FD /* r2-opds-swift.framework */,
+				35EF4BAACB12722F66F97690 /* ReadiumOPDS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,32 +93,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5DFDDF59FED6582AFBD6A337 /* Headers */ = {
+		F12EDE2E662F9F61FC12FEA8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61FF9EBDB930D69A4459E720 /* readium_opds.h in Headers */,
+				5C8BE124059E0C2519D1F2AE /* readium_opds.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8652BAC4C0A52DEBB8C2502D /* r2-opds-swift */ = {
+		D654D2F39FD851DA41234F46 /* ReadiumOPDS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95606E67DF4A95F8544233B6 /* Build configuration list for PBXNativeTarget "r2-opds-swift" */;
+			buildConfigurationList = F218B35F6843F4F702214D28 /* Build configuration list for PBXNativeTarget "ReadiumOPDS" */;
 			buildPhases = (
-				5DFDDF59FED6582AFBD6A337 /* Headers */,
-				AFAC81C5700113DE186B58B1 /* Sources */,
-				D35F5D4AD2496E802724D642 /* Frameworks */,
+				F12EDE2E662F9F61FC12FEA8 /* Headers */,
+				D9F6450A09783408986C6186 /* Sources */,
+				3177CD2CC0FBC7F7DBCBA07D /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "r2-opds-swift";
-			productName = "r2-opds-swift";
-			productReference = 8A730CA260F1AD0675B717FD /* r2-opds-swift.framework */;
+			name = ReadiumOPDS;
+			productName = ReadiumOPDS;
+			productReference = 35EF4BAACB12722F66F97690 /* ReadiumOPDS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -143,58 +143,28 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8652BAC4C0A52DEBB8C2502D /* r2-opds-swift */,
+				D654D2F39FD851DA41234F46 /* ReadiumOPDS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AFAC81C5700113DE186B58B1 /* Sources */ = {
+		D9F6450A09783408986C6186 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ADCDD2E3F961C147A8EBEE7 /* Deprecated.swift in Sources */,
-				C87E1A98866A99BE7173321F /* OPDS1Parser.swift in Sources */,
-				330261E4B981CFF3E50DAB66 /* OPDS2Parser.swift in Sources */,
-				0B86C50C8DFD465802C7A729 /* OPDSParser.swift in Sources */,
-				E8337C754BA990696F27C08B /* ParseData.swift in Sources */,
-				B00A1B84D4895F81AC5EEF0A /* URLHelper.swift in Sources */,
+				2AB527F7B1086F129D84AEAD /* Deprecated.swift in Sources */,
+				4A924F7C90F0FC30F2ED28AC /* OPDS1Parser.swift in Sources */,
+				F05D50C390821737CCDA33E9 /* OPDS2Parser.swift in Sources */,
+				B865DBAD30615612BB87EE76 /* OPDSParser.swift in Sources */,
+				98414C07E8591593030905BA /* ParseData.swift in Sources */,
+				8D8D9482AE464EFE9B00868E /* URLHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		187587D5A101C7330CA17387 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"Carthage/Build\"",
-				);
-				INFOPLIST_FILE = "readium-opds/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.readium.r2-opds-swift";
-				PRODUCT_NAME = ReadiumLCP;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-			};
-			name = Release;
-		};
 		208F98174DF4C565E6858FDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -250,7 +220,7 @@
 			};
 			name = Release;
 		};
-		6AA440410D363920DE2D15C8 /* Debug */ = {
+		304A79195EA3B4E68C923E00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -271,14 +241,13 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.readium.r2-opds-swift";
-				PRODUCT_NAME = ReadiumLCP;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.readium.readium-opds";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = Debug;
+			name = Release;
 		};
 		6D1ABC3CE68F1046F3C3ACC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -342,23 +311,52 @@
 			};
 			name = Debug;
 		};
+		EBF3BA4EFA2DA16B72610755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Carthage/Build\"",
+				);
+				INFOPLIST_FILE = "readium-opds/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.readium.readium-opds";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		95606E67DF4A95F8544233B6 /* Build configuration list for PBXNativeTarget "r2-opds-swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6AA440410D363920DE2D15C8 /* Debug */,
-				187587D5A101C7330CA17387 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
 		D04A73A1FCCFEF98FBB50A0A /* Build configuration list for PBXProject "readium-opds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D1ABC3CE68F1046F3C3ACC6 /* Debug */,
 				208F98174DF4C565E6858FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F218B35F6843F4F702214D28 /* Build configuration list for PBXNativeTarget "ReadiumOPDS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF3BA4EFA2DA16B72610755 /* Debug */,
+				304A79195EA3B4E68C923E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

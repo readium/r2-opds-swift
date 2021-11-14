@@ -1,3 +1,7 @@
+> **:warning: ᴛʜɪs ʀᴇᴘᴏsɪᴛᴏʀʏ ɪs ᴅᴇᴘʀᴇᴄᴀᴛᴇᴅ :warning:**
+>
+> We moved all the `r2-*-swift` modules to a single repository: [`swift-toolkit`](https://github.com/readium/swift-toolkit).
+
 # OPDS Parser (Swift)
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](/LICENSE)
